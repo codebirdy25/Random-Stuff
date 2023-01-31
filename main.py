@@ -89,33 +89,3 @@ async def mines(interaction: discord.Interaction, tiles: int):
     em.set_footer(text="**Educated guess for Mines**")
     await interaction.response.send_message(embed=em)
     print(f"{Current_Time}[{Green}BirdyBot{Back.RESET}]: Executed command - Mines")
-
-
-
-
-
-
-# **** DO NOT GO BELOW THIS POINT **** #
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-client.run("OTk4MjYwNzM2MDc1NzYzNzkz.GHJhF1.4uLKzgXNK8vxc8FKNFRBLx9qXRLTJflERLVwvY")
